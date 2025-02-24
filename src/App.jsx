@@ -9,9 +9,10 @@ function App() {
   async function handleSubmit(event) {
     event.preventDefault();
     try {
-      //修改前
+      // 修改前
       //const response = await axios.post("http://localhost:3000/",
-      //修改後
+      // 修改後
+      // "https://hash-generator-backend.vercel.app/hash",
       const response = await axios.post(
         "https://hash-generator-backend-tau.vercel.app/hash",
         {
