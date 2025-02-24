@@ -44,7 +44,7 @@ function App() {
         </select>
         <button type="submit">計算</button>
       </form>
-      <h1>輸出</h1>
+      <h1>輸出  測試內容</h1>
       <div>{hash}</div>
     </>
   );
